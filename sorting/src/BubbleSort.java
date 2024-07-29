@@ -1,31 +1,31 @@
 public class BubbleSort {
-    public void bubbleShortAlgorithm(int []A, int n){
+    public  void bubbleShortAlgorithm(int []A, int n){
         boolean swapped;
         int temp;
-        for(int i = 0; i<n-1; i++){
+        int i;
+        int j;
+        for( i = 0; i<n-1; i++){
             swapped = false;
-            for(int j =0; j<n-i-1; j++){
-                if(A[j] > A[j++]){
+
+            for( j =0; j<n-i-1; j++){
+                if(A[j] > A[j+1]){
+
                     temp = A[j];
-                    A[j]=A[j++];
-                    A[j++] = temp;
+                    A[j]=A[j+1];
+                    A[j+1] = temp;
                     swapped = true;
                 }
             }
-            if(swapped == false)
+            if(!swapped)
                 break;
         }
     }
-    public void  print(int A[], int n){
+    public  void  print(int []A, int n){
         for(int i = 0; i <n; i++){
-            System.out.print(A[i]+" ");
+            System.out.print(A[i] +" ");
+            System.out.println();
         }
+
     }
-    public static void main(String[] args) {
-        int []A={10,30,50,23,12,15};
-        int n = A.length;
-        BubbleSort bs = new BubbleSort();
-        bs.bubbleShortAlgorithm(A,n);
-        bs.print(A,n);
-    }
+
 }
