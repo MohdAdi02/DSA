@@ -35,14 +35,14 @@ public class TestAlgorithm
 
 
 
-//        int []A={10,20,30,40,500,90,110,120,150};
-//        int i =0;
-//        int n = A.length;
-//        MergeAlgorithm ma = new MergeAlgorithm();
-//        ma.mergesort(A,0,n-1);
-//        for(int k =0; k<A.length; k++ ){
-//            System.out.print(A[k]+" ");
-
+        int []A={2,9,10,5,1,4};
+        int i =0;
+        int n = A.length;
+        MergeAlgorithm ma = new MergeAlgorithm();
+        ma.mergesort(A,0,n-1);
+        for(int k =0; k<A.length; k++ ) {
+            System.out.print(A[k] + " ");
+        }
 
 
 
