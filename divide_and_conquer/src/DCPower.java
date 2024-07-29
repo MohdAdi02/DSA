@@ -1,4 +1,4 @@
-public class Power
+public class DCPower
 {
     public  int poweOfNumber(int a, int b)
     {

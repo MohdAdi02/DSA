@@ -1,4 +1,4 @@
-public class MinMax {
+public class DCMinMax {
     public static class min1max1{
         int min;
         int max;

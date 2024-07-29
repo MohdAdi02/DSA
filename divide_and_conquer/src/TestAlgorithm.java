@@ -26,11 +26,28 @@ public class TestAlgorithm
 //        int b=4;
 //        System.out.println(p.poweOfNumber(2, 5));
 
-        int []A={10,20,30,40,500,90,110,120,150};
-        int i = 0;
-        int j = 8;
-        MinMax.min1max1 mm = MinMax.max_min(A,i,j);
-        System.out.println(mm.max);
-        System.out.println(mm.min);
+//        int []A={10,20,30,40,500,90,110,120,150};
+//        int i = 0;
+//        int j = 8;
+//        DCMinMax.min1max1 mm = DCMinMax.max_min(A,i,j);
+//        System.out.println(mm.max);
+//        System.out.println(mm.min);
+
+
+
+//        int []A={10,20,30,40,500,90,110,120,150};
+//        int i =0;
+//        int n = A.length;
+//        MergeAlgorithm ma = new MergeAlgorithm();
+//        ma.mergesort(A,0,n-1);
+//        for(int k =0; k<A.length; k++ ){
+//            System.out.print(A[k]+" ");
+
+
+
+
+
+
+
     }
 }
