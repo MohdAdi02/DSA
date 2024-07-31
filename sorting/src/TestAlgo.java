@@ -9,11 +9,19 @@ public class TestAlgo {
 
 
 
-        int []A = {6,5,8,9,3,10};
-        int n = A.length;
-        QuickSort qs = new QuickSort();
-        qs.quickSortAlgo(A, 0,n-1);
+//        int []A = {6,5,8,9,3,10};
+//        int n = A.length;
+//        QuickSort qs = new QuickSort();
+//        qs.quickSortAlgo(A, 0,n-1);
+//        qs.printFunction(A);
 
-        qs.printFunction(A);
+
+
+        int []A = {5, 21, 32,5,2,9};
+        int n = A.length;
+        InsertionSort is = new InsertionSort();
+        is.insertionAlgorithm(A);
+        is.printFunction(A);
+
     }
 }
