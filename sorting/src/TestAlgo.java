@@ -17,11 +17,22 @@ public class TestAlgo {
 
 
 
-        int []A = {5, 21, 32,5,2,9};
-        int n = A.length;
-        InsertionSort is = new InsertionSort();
-        is.insertionAlgorithm(A);
-        is.printFunction(A);
+//        int []A = {5, 21, 32,5,2,9};
+//        int n = A.length;
+//        InsertionSort is = new InsertionSort();
+//        is.insertionAlgorithm(A);
+//        is.printFunction(A);
 
+
+
+        int []arr = {0,5,2,4,1,2,1,3,2};
+        int n = arr.length;
+        int k = 5;
+        CountingSort cs = new CountingSort();
+        cs.countingSortAlgorithm(arr);
+        for(int i = 0; i<n; i++){
+            System.out.print(arr[i]);
+        }
+        System.out.println();
     }
 }
