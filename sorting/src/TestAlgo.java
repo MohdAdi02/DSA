@@ -25,13 +25,24 @@ public class TestAlgo {
 
 
 
-        int []arr = {0,5,2,4,1,2,1,3,2};
-        int n = arr.length;
-        int k = 5;
-        CountingSort cs = new CountingSort();
-        cs.countingSortAlgorithm(arr);
-        for(int i = 0; i<n; i++){
-            System.out.print(arr[i]);
+//        int []arr = {0,5,2,4,1,2,1,3,2};
+//        int n = arr.length;
+//        int k = 5;
+//        CountingSort cs = new CountingSort();
+//        cs.countingSortAlgorithm(arr);
+//        for(int i = 0; i<n; i++){
+//            System.out.print(arr[i]);
+//        }
+//        System.out.println();
+
+
+
+        int []A ={170, 45, 75, 90, 802, 24, 2, 66};
+        int n = A.length;
+        Radixsort rs = new Radixsort();
+        rs.radixSort(A,n);
+        for(int i =0; i<n; i++){
+            System.out.print(A[i]+" ");
         }
         System.out.println();
     }
