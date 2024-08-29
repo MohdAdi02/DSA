@@ -11,7 +11,6 @@ public class HeapInsertion {
 
         }
     }
-
     public static void swap(int[] heap, int i, int j){
         int temp = heap[i];
         heap[i] = heap[j];
@@ -26,7 +25,7 @@ public class HeapInsertion {
         for(int i =0; i<value.length;i++){
             insertMinHeap(heap,size,value[i]);
             size++;
-            System.out.print("Value "+ heap[i] +" insert ");
+//            System.out.print("Value "+ heap[i] +" insert ");
             for(int j =0; j<size; j++){
                 System.out.print(heap[j]+" ");
             }
